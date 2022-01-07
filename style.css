@@ -1,0 +1,30 @@
+body h1{
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+.flexible-contain{
+    display: flex;
+}
+.first-section{
+    width: 50%;
+    padding: 3%;
+}
+.first-section img{
+    width: 100%;
+}
+.orange{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(blue, cyan);
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700; 
+}
