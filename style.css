@@ -5,7 +5,11 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 30px;
+    font-size: 40px;
+}
+h2{
+    font-size: 39px;
+    text-align: center;
 }
 .flexible-contain{
     display: flex;
@@ -15,9 +19,9 @@ h1{
     padding: 3%;
 }
 .first-section img{
-    width: 100%;
+    width: 80%;
 }
-.orange{
+span{
     color: orange;
 }
 .link-button{
@@ -27,4 +31,21 @@ h1{
     border-radius: 6px;
     color: white;
     font-weight: 700; 
+}
+.make-border{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 30px 70px 10px 40px;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+#first-border{
+    background-color: rgb(210, 250, 255);
+}
+#second-border{
+    background-color: rgb(255, 218, 255);
+}
+#third-border{
+    background-color: rgb(255, 233, 194);
 }
