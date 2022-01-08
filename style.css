@@ -1,33 +1,47 @@
-body h1{
+body{
     font-family: 'Libre Baskerville', serif;
     margin: 0;
 }
-body{
-    margin: 0;
+.paragrap-pad{
+    padding-left: 8%;
 }
 p{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 35px;
+    margin: 0%;
 }
 h2{
     font-size: 39px;
     text-align: center;
     margin-bottom: 100px;
+    margin: 3%;
 }
 .flexible-contain{
     display: flex;
     padding-bottom: 5%;
+    padding-top: 4%;
+    padding-right: 5%;
+}
+.center{
+    padding-top: 7%;
+    padding-right: 5%;
+}
+.second-center{
+    padding-top: 7%;
+    padding-left: 5%;
 }
 .first-section{
     width: 50%;
-    padding: 4%;
+    padding: 8%;
+
 }
-.first-section img{
+.second-section img{
     width: 80%;  
+    padding-left: 4%;
 }
-span{
+.orange{
     color: orange;
 }
 .link-button{
@@ -40,11 +54,13 @@ span{
 }
 .make-border{
     width: 40%;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 30px 70px 10px 40px;
-    padding-top: 80px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
     border-radius: 10px;
+}
+div img{
+    width: 30%;
 }
 #first-border{
     background-color: rgb(210, 250, 255);
